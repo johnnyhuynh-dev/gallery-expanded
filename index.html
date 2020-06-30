@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer type="module"></script>
+    <script src="./regex.js" defer type="module"></script>
+    <title>Image Gallery Expand</title>
+  </head>
+
+  <body>
+    <div class="gallery">
+      <div class="img-container">
+        <img
+          src="./previews/flock-of-birds-preview.jpg"
+          alt="This is a flock of birds"
+          data-original="flock-of-birds-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/alberta-amazing-attraction-banff-preview.jpg"
+          alt="Alberta amazing attraction"
+          data-original="alberta-amazing-attraction-banff-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/lake-on-between-snowy-mountain-preview.jpg"
+          alt="Lake on between snowy mountain"
+          data-original="lake-on-between-snowy-mountain-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/man-doing-hand-stand-on-mountain-preview.jpg"
+          alt="This is a man doing hand stand on a mountain"
+          data-original="man-doing-hand-stand-on-mountain-full.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="modal">
+      <img src="./full/flock-of-birds-full.jpg" alt="" class="full-img" />
+      <p class="caption">This is a fucking paragraph</p>
+    </div>
+  </body>
+</html>
